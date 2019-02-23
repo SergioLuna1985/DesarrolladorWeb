@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bodyContacto">
+   <header class="headerContacto">
+   </header>
+    <nav class="navContacto">
+        <ul class="ulContacto">
+            <li class="liContacto"><a href="index.html">INICIO</a></li>
+            <li class="liContacto"><a href="index.html#cervezas">CERVEZAS</a></li>
+            <li class="liContacto"><a href="index.html#platos">PLATOS</a></li>
+            <li class="liContacto"><a href="index.html#local">LOCAL</a></li>
+            <li class="liContacto"><a href="fabrica.html">FABRICACION</a></li>
+            <li class="liContacto"><a href="contacto.html">CONTACTO</a></li>           
+        </ul>
+    </nav>
+    <main class="mainContacto">
+           <form method="POST" action="procesar-formulario.php">
+               Nombre: <input maxlength="99999999999999999" type="text" name="nombre"> <br> <br>
+               Email: <input type="email" name="correo"> <br> <br>
+               <textarea cols="60" rows="9" name="mensaje">Mensaje: </textarea> <br>
+               <input type="submit" value="Enviar">
+          </form>
+    </main>
+    <footer>
+        <p>Derechos reservados - Creado por Sergio Luna</p>
+    </footer>
+</body>
+</html>
