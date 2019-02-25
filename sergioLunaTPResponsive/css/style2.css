@@ -90,6 +90,48 @@
     color: white;
 }
 
+/*-----------------------------------------------------Archivo Stout-----------------------------------------*/
+
+.mainCervezas {
+    background-image: url("../imagenes/fondoGenerico.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.cervezas h5 {
+    color: white;
+    font-size: 50px;
+    font-family: "sergio";
+    letter-spacing: 5px;
+    margin: auto auto;
+    position: relative;
+    top: -5%;
+
+}
+
+.cervezas p {
+    color: white;
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.imagenHeader {
+    width: 20%;
+    margin-top: 7%;
+    margin-left: 40%;
+    
+}
+
+
+.stout {
+    display: block;
+    margin: auto;
+
+
+}
+
+
 
 /*------------------------------------------------------Generales--------------------------------------------*/
 /*
