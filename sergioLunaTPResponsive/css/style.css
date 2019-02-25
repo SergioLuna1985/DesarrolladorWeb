@@ -1,0 +1,690 @@
+﻿/* Fuentes */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+@font-face {
+    font-family: "sergio";
+    src: url("../fuentes/Silky&Milky-Regular.otf");
+}
+
+/* Responsive */
+/* Resolución más de 1024px */
+
+@media (min-width:1024px) {
+    .fila2Index {
+        display: none;
+    }
+    .fila3Index {
+        display: none;
+    }
+    .fila4Index {
+        display: none;
+    }
+
+    /*------------------------ archivo INDEX ---------------------------*/
+
+    /* Página principal INICIO*/    
+    .section1Index {
+        width: 100%;
+        height: 27%;
+        background-image: url("../imagenes/fondoPrincipal.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    
+    /* Página de Cervezas*/
+    .section2Index {
+        width: 100%;
+        height: 27%;
+        background-image: url("../imagenes/fondoCervezaTrigo.jpg");
+        background-size: 75%;
+        background-color: black;
+        background-repeat: no-repeat;
+        background-position: 0% 50%;
+        border: 2px black solid;
+    
+    }
+
+    /*Titulo de página de Cervezas*/
+    #cervezas h2 {
+        position: relative;
+        left: 0;
+        top: 25%;
+        font-family: 'Comfortaa', cursive;
+        color: white;
+        padding-left: 40%;
+    }
+    /*Tabla de página de Cervezas*/
+    .tableSection2Index {
+        margin-top: 15%;
+        position: relative;
+        top: 10%;
+        left: 40%;
+    
+    } 
+    /*Página de platos*/
+    .section3Index {
+        width: 100%;
+        height: 27%;
+        background-image: url("../imagenes/fondoHamburguesa.jpg");
+        background-size: 80%;
+        background-position: right;
+        background-color: black;
+        background-repeat: no-repeat;
+        border: 1px black solid;
+    
+    }
+    /*Titulo de página de platos*/
+    #platos h2 {
+        width: 50%;
+        position: relative;
+        top: 25%;
+        left: 5%;
+        font-size: 30px;
+        color: white;
+        margin-bottom: -15px;
+        font-family: 'Comfortaa', cursive;
+    }
+    /*Tabla de página de platos*/
+    .tableSection3Index {
+        margin-top: 20%;
+        position: relative;
+        top: 5%;
+        left: 5%;
+    } 
+    /*Página de Local*/
+    .section4Index {
+        width: 100%;
+        height: 18%;
+        background-color: black;
+        padding-top: 5%;
+    }
+
+    /*Imagenes dentro de página local*/
+    .img1 {
+        width: 30%;
+        position: relative;
+        left: 5%;
+        z-index: 0;
+    }
+
+    .img2 {
+        width: 20%;
+        position: relative;
+        left: -1%;
+        top: 25%;
+        z-index: 1;
+    }
+
+    .img3 {
+        width: 25%;
+        position: relative;
+        left: -5%;
+        top: 5%;
+        z-index: 0;
+    }
+
+    .img4 {
+        width: 35%;
+        position: relative;
+        left: 5%;
+        top: 5%;
+        z-index: 0;
+    }
+
+    .img5 {
+        width: 30%;
+        position: relative;
+        left: 6%;
+        top: 5%;
+    }
+    /*Mapa de google*/
+    iframe {
+        width: 20%;
+        position: relative;
+        top: 5%;
+        left: 10%;
+    }
+    
+    /*Cuerpo de la página*/
+    .bodyIndex {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: black;
+    }
+    
+    /*Parte principal dentro de Body*/
+    .mainIndex {
+    width: 100%;
+    height: 5000px;
+    }
+
+    .direccion {
+        color: white;
+        text-align: right;
+        position: relative;
+        top: 20%;
+    }
+    
+    /*------------------------FIN DE INDEX-----------------------/*
+
+
+    /*Derechos de autor*/
+    footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    z-index: 25;
+    
+    }
+
+    .videoFabrica {
+    position: relative;
+    left: 35%;
+    top: 3%;
+    }
+    
+    
+
+
+}
+
+@media (max-width:1500px) {
+
+    /*------------------------ archivo INDEX ---------------------------*/
+
+    /* Página principal INICIO*/  
+
+
+    .section1Index {
+        width: 100%;
+        height: 24%;
+        background-image: url("../imagenes/fondoPrincipal.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+    }
+    
+    .section2Index {
+        width: 100%;
+        height: 22%;
+        background-image: url("../imagenes/fondoCervezaTrigo.jpg");
+        background-size: 75%;
+        background-color: black;
+        background-repeat: no-repeat;
+        background-position: 0% 50%;
+        border: 2px black solid;
+    
+    }
+    #cervezas h2 {
+        position: relative;
+        left: 0;
+        top: 13%;
+        font-family: 'Comfortaa', cursive;
+        color: white;
+        padding-left: 40%;
+    }
+
+    .tableSection2Index {
+        margin-top: 15%;
+        position: relative;
+        top: -10%;
+        left: 40%;
+    
+    } 
+
+    .section3Index {
+        width: 100%;
+        height: 25%;
+        background-image: url("../imagenes/fondoHamburguesa.jpg");
+        background-size: 80%;
+        background-position: right;
+        background-color: black;
+        background-repeat: no-repeat;
+        border: 1px black solid;
+    
+    }
+    #platos h2 {
+        width: 50%;
+        position: relative;
+        top: 25%;
+        left: 5%;
+        font-size: 30px;
+        color: white;
+        margin-bottom: -15px;
+        font-family: 'Comfortaa', cursive;
+    }
+    
+    .tableSection3Index {
+        margin-top: 20%;
+        position: relative;
+        top: 5%;
+        left: 5%;
+       
+    } 
+
+    .section4Index {
+        width: 100%;
+        height: 20%;
+        background-color: black;
+        padding-top: 5%;
+    }
+
+    
+    .img1 {
+        width: 30%;
+        position: relative;
+        left: 5%;
+        top: -2%;
+        z-index: 0;
+    }
+
+    .img2 {
+        width: 20%;
+        position: relative;
+        left: -1%;
+        top: 25%;
+        z-index: 1;
+    }
+
+    .img3 {
+        width: 25%;
+        position: relative;
+        left: -5%;
+        top: 5%;
+        z-index: 0;
+    }
+
+    .img4 {
+        width: 35%;
+        position: relative;
+        left: 5%;
+        top: 5%;
+        z-index: 0;
+    }
+
+    .img5 {
+        width: 30%;
+        position: relative;
+        left: 6%;
+        top: 5%;
+    }
+
+    iframe {
+        width: 20%;
+        position: relative;
+        top: 5%;
+        left: 10%;
+    }
+    
+    body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: black;
+    }
+    
+    .mainIndex {
+    width: 100%;
+    height: 3000px;
+    }
+    
+    footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    z-index: 25;
+    
+    }
+
+    .videoFabrica {
+	width: 50%;
+    position: relative;
+    left: 30%;
+    top: 3%;
+    }
+    
+    .direccion {
+        color: white;
+        text-align: right;
+        position: relative;
+        margin-right: 1%;
+        top: 0%;
+    }
+
+    
+    
+
+}
+
+@media (max-width:768px) {
+    .columnaDesaparecer1 {
+        display: none;
+    }
+    .columnaDesaparecer2 {
+        display: none;
+    }
+    .fila3Index {
+        display: unset;
+    }
+        .fila4Index {
+        display: unset;
+    }
+    .columnaDesaparecer1 {
+        display: none;
+    }
+    .fila3Index {
+    display: none;
+    }
+    .fila4Index {
+    display: none;
+    }
+
+}
+
+@media (max-width:200px) {
+    
+}
+nav .divLogo {
+    width: 100px;
+    height: 150px;
+    display: block;
+    float: left;
+    background-color: white;
+    margin-left: 50px;
+    background-image: url("../imagenes/logo.jpg");
+    background-repeat: no-repeat;
+    background-position: 0% 110%;
+    background-size: 100%;
+    z-index: 10;
+    
+}
+/* Termina la zona responsive */
+
+
+
+.headerContacto {
+    display: block;
+    height: 200px;
+    width: 100%;
+    background-image: url("../imagenes/heater.JPG");
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    background-color: black;
+    background-position: center;
+}
+
+.mainContacto {
+    height: 700px;
+    background-image: url("../imagenes/barra.jpg");
+    background-size: 100%;
+    color: white;
+}
+
+form {
+    position: relative;
+    top: 15%;
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 25px;
+    color: rgba(255,255,255,1);
+    width: 80%;
+    margin: auto;
+    
+}
+
+
+.bodyContacto {
+    background-color: black;
+
+}
+
+
+nav {
+    width: 100%;
+    height: 10%;
+    display: block;
+    position: fixed;
+    background-color:#131313;
+    margin-top: -1%;
+    z-index: 10;
+   
+
+}
+
+
+.navContacto {
+    width: 100%;
+    height: 30px;
+    position: static;
+    display: block;
+    background-color:#131313;
+    z-index: 10;
+    padding-top: 8px;
+    padding-bottom: 5px;
+
+}
+
+.ulContacto {
+    margin-top: 0px;
+}
+
+.liContacto {
+    display: inline;
+    color: #646667;
+    font-family:'Staatliches', cursive;
+    font-size: 20px;
+    position: relative;
+    right: -30%;
+    padding-inline-start: 25px;
+    padding-inline-end: 25px;
+}
+
+nav ul {
+    margin-top: 20px;
+    
+    
+}
+
+nav li {
+    display: inline;
+    color: #646667;
+    font-family:'Staatliches', cursive;
+    font-size: 20px;
+    position: relative;
+    right: -30%;
+    padding-inline-start: 25px;
+    padding-inline-end: 25px;
+   
+}
+
+li a:hover {
+    color: orange;
+
+  }
+
+nav a {
+    color: #646667;
+    text-decoration: none;
+
+}
+
+table img:hover {
+    filter: brightness(0.5);
+
+}
+
+/* margenes de las las imagenes del menu y de las cervezas */
+
+td img {
+    margin: 10px;
+}
+
+/* ---------*/
+
+
+.div {
+    border: 2px red solid;
+
+}
+
+
+.bodyFabrica {
+    background-color: black;
+}
+
+
+.mainFabrica {
+    width: 100%;
+    height: 50%;
+    background-color: black;
+   
+}
+
+.articleFabrica {
+    width: 100%;
+    height: 50%;
+    background-image: url("../imagenes/fondoSecundario.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+
+
+.imgFabrica {
+    width: 100%;
+    padding-top: 70px;
+    opacity: 0.8;
+}
+
+#stout {
+    width: 100%;
+    height: 120%;
+    border: 2px black solid;
+}
+
+#golden {
+    width: 100%;
+    height: 100%;
+    border: 2px black solid;
+}
+
+#apa {
+    width: 100%;
+    height: 100%;
+    border: 2px black solid;
+}
+
+#scotch {
+    width: 100%;
+    height: 100%;
+    border: 2px black solid;
+}
+
+#porter {
+    width: 100%;
+    height: 100%;
+    border: 2px black solid;
+}
+
+#ipa {
+    width: 100%;
+    height: 100%;
+    border: 2px black solid;
+}
+
+#honey {
+    width: 100%;
+    height: 100%;
+    border: 2px black solid;
+}
+
+#irishRed {
+    width: 100%;
+    height: 100%;
+    border: 2px black solid;
+}
+
+.cervezas article {
+    width: 50%;
+    display: inline-block;
+    position: relative;
+    left: 5%;
+    top: 5%;
+    padding-bottom: 20%;
+}
+
+.cervezas aside {
+    width: 25%;
+    display: inline-block;
+    position: relative;
+    left: 15%;
+    
+    
+}
+
+
+
+.cervezas h5 {
+    color: white;
+    font-size: 50px;
+    font-family: "sergio";
+    letter-spacing: 5px;
+    margin: auto auto;
+    position: relative;
+    top: -5%;
+
+
+}
+
+.cervezas p {
+    color: white;
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.mainCervezas {
+    background-image: url("../imagenes/fondoGenerico.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.imagenHeader {
+    width: 20%;
+    margin-top: 7%;
+    margin-left: 40%;
+    
+}
+
+header {
+    background: linear-gradient(rgba(0,0,0,1)45%, rgba(255,255,255,0));
+}
+
+
+
+hr {
+    border: rgb(60, 60, 60) 1px solid;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: black;
+    }
+
+
+iframe {
+    border=0;
+    width="400px" height="500px";
+    position: relative;
+    top: -200px;
+
+
+}

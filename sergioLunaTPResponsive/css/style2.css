@@ -1,0 +1,118 @@
+﻿/*----------------------------------------------- Fuentes --------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+
+
+/*---------------------------------------------- Fin Fuentes ----------------------------------------------*/
+
+
+/*-----------------------------------------------Responsive ------------------------------------------------*/
+
+@media (max-width:768px) {
+    #fondoMenuCervezas {
+        width: 100%;
+        height: 75%;
+        background-color: black;
+        margin: auto;
+    }
+
+    
+}
+
+@media (min-width:768px) {
+    #fondoMenuCervezas {
+        width: 100%;
+        height: 75%;
+        background-image: url("../imagenes/fondoCervezaTrigo.jpg");
+        background-size: 60%;
+        background-color: black;
+        background-repeat: no-repeat;
+        background-position: 0% 70%;
+        margin: auto;
+    }
+
+    
+}
+
+/*-------------------------------------------------Fin Responsive------------------------------------------/*
+
+/*------------------------------------------------- Archivo index ---------------------------------------*/
+
+#mainIndex {
+    background-color: black;
+    height: 3000px;
+}
+
+/*Imagen de fondo principal*/
+
+#imagenFondo {
+    position: relative;
+    top: 90px;
+}
+
+
+
+/*-------------------------------------------------- Archivo menuCervezas  --------------------------------*/
+
+#mainMenuCervezas {
+    background-color: black;
+    height: 1080px;
+
+}
+
+
+
+#cervezas {
+    width: 100%;
+    height: 75%;
+    position: relative;
+    top: 17%;
+    margin: auto;
+
+}
+
+.h2MenuCervezas {
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    text-align: center;
+
+}
+
+#mainMenuCervezas img:hover {
+    filter: brightness(0.5);
+
+}
+
+#espacioEnMenuCervezas {
+    width: 177px;
+    height: 200px;
+    color: white;
+}
+
+
+/*------------------------------------------------------Generales--------------------------------------------*/
+/*
+div {
+    border: 2px blue solid;
+}
+
+.row {
+    border: 2px yellow solid;
+}
+
+.col {
+    border: 2px orange;
+}
+*/
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: white;
+}
