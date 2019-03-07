@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Comfortaa');
 
+@font-face {
+    font-family: "sergio";
+    src: url("../fuentes/Silky&Milky-Regular.otf");
+}
 
 
 /*---------------------------------------------- Fin Fuentes ----------------------------------------------*/
@@ -93,6 +97,7 @@
 /*-----------------------------------------------------Archivo Stout-----------------------------------------*/
 
 .mainCervezas {
+    height: 900px;
     background-image: url("../imagenes/fondoGenerico.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -106,7 +111,8 @@
     letter-spacing: 5px;
     margin: auto auto;
     position: relative;
-    top: -5%;
+    top: 5%;
+    left: 2%;
 
 }
 
@@ -127,8 +133,293 @@
 .stout {
     display: block;
     margin: auto;
+    
 
 
+}
+
+/*-------------------------------------------Archivo Venta----------------------------------*/
+
+.mainVentas {
+    width: 100%;
+    height: 1000px;
+    background-image: url("../imagenes/fondoGenerico.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.fondoCarrusel1 {
+    width: 80%;
+    height: 250px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    position: relative;
+    top: 150px;
+}
+
+.fondoCarrusel2 {
+    width: 80%;
+    height: 250px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    position: relative;
+    top: 200px;
+}
+
+
+
+
+#carrusel {
+    margin: auto;
+    width:800px;
+    overflow:hidden;
+    height:270px;
+    position:relative;
+    top: 10px;
+    color: white;
+    
+}
+
+ 
+#carrusel .left-arrow {
+    position:absolute;
+    left:-5px;
+    z-index:1;
+    top:50%;
+    margin-top:-9px;
+}
+ 
+
+
+#carrusel .right-arrow {
+    position:absolute;
+    right:-5px;
+    z-index:1;
+    top:50%;
+    margin-top:-9px;
+}
+
+
+ 
+.carrusel {
+    width:2000px;
+    left:0px;
+    position:absolute;
+    z-index:0;
+}
+ 
+.carrusel>div {
+    float: left;
+    height: 270px;
+    margin-right: 5px;
+    width: 195px;
+    text-align:center;
+}
+ 
+.carrusel img {
+    cursor:pointer;
+    border: 2px orange solid;
+}
+ 
+.product {
+  
+    height: 200px;
+}
+
+
+
+
+
+
+#carrusel2 {
+    margin: auto;
+    width:800px;
+    overflow:hidden;
+    height:270px;
+    position:relative;
+    top: 10px;
+    
+}
+
+ 
+#carrusel2 .left-arrow2 {
+    position:absolute;
+    left:-5px;
+    z-index:1;
+    top:50%;
+    margin-top:-9px;
+}
+ 
+
+
+#carrusel2 .right-arrow2 {
+    position:absolute;
+    right:-5px;
+    z-index:1;
+    top:50%;
+    margin-top:-9px;
+}
+
+
+ 
+.carrusel2 {
+    width:2000px;
+    left:0px;
+    position:absolute;
+    z-index:0;
+}
+ 
+.carrusel2>div {
+    float: left;
+    height: 270px;
+    margin-right: 5px;
+    width: 195px;
+    text-align:center;
+}
+ 
+.carrusel2 img {
+    cursor:pointer;
+    border: 2px orange solid;
+}
+ 
+.product2 {
+    height: 200px;
+}
+
+.mainVentas p {
+    color: black;
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.carrusel a {
+    position: relative;
+    bottom: 0;
+}
+
+.carrusel2 a {
+    position: relative;
+    bottom: 15px;
+}
+
+
+
+/*-------------------------------------------Archivo Carrito----------------------------------*/
+
+.mainCarrito {
+    width: 100%;
+    height: 1000px;
+    background-color: black;
+    background-image: url("../imagenes/fondoGenerico.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.fondoCarrito {
+    width: 80%;
+    height: 800px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    position: relative;
+    top: 150px;
+}
+
+#articleCarrito {
+    overflow:scroll;
+
+}
+
+.articleCarrito {
+    width: 65%;
+    height: 750px;
+    background: rgba(125, 125, 125, 0.5);
+    border-radius: 15px;
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    left: 2%;
+    z-index: 0;
+
+}
+
+
+.asideCarrito {
+    width: 25%;
+    height: 300px;
+    background: rgba(125, 125, 125, 0.5);
+    border-radius: 15px;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    display: inline-block;
+
+}
+
+tr {
+    border-bottom: 1px black solid;
+}
+
+td {
+    text-align: center;
+    padding: 5px
+            
+}
+
+
+.h2Carrito {
+    font-family: "sergio";
+    color: white;
+    position: relative;
+    top: 120px;
+    left: 5%;
+
+}
+
+.h3Carrito {
+    color: white;
+    font-family: "sergio";
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    font-size: 40px;
+}
+
+.h4Carrito {
+    color: white;
+    font-family: "sergio";
+}
+
+#botonIniciarSesion {
+    position: relative;
+    left: 25%;
+}
+
+#botonComprar {
+   
+}
+
+#botonCerrarSesion {
+    position: relative;
+    left: 16%;
+    
+}
+
+
+/*-------------------------------------------Archivo Registrar Usuario----------------------------------*/
+
+.mainRegistrarUsuario {
+    width: 100%;
+    height: 1000px;
+    background-color: black;
+    background-image: url("../imagenes/fondoGenerico.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
 }
 
 
@@ -147,8 +438,6 @@ div {
     border: 2px orange;
 }
 */
-
-
 footer {
     background-color: black;
     color: white;
@@ -157,4 +446,17 @@ footer {
 
 p {
     color: white;
+  /*  border: blue solid 2px;*/
+}
+
+
+
+
+.formulario {
+    color: white;
+    position: relative;
+    left: 300px;
+    top: 120px
+    
+    
 }
