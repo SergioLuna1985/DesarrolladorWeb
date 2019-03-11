@@ -3,7 +3,7 @@ session_start();
 
 $_SESSION["estado"]=false;
 
-header("Location: carrito.php");
+header("Location: index.php");
 
 
 ?>

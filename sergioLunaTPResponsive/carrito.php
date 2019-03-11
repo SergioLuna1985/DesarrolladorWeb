@@ -18,7 +18,9 @@
             while ($sumar=mysqli_fetch_Array($contaCarrito)) {
                 $carrito=$carrito+$sumar["carrito"];
             }
-
+            
+            $_SESSION["carrito"]=$carrito;
+        
             $tablaCarrito=mysqli_query($conexion, "SELECT * FROM productos WHERE carrito='1'"); 
 
 
@@ -46,19 +48,13 @@
                         <a class="nav-link" href="index.php">INICIO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="menuCervezas.html">CERVEZAS</a>
+                        <a class="nav-link" href="menuCervezas.php">CERVEZAS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#platos">PLATOS</a>
+                        <a class="nav-link" href="menuPlatos.php">PLATOS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#local">LOCAL</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="fabrica.html">FABRICACION</a>
-                    </li> 
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">CONTACTO</a>
+                        <a class="nav-link" href="fabrica.php">FABRICACION</a>
                     </li>     
                     <li class="nav-item">
                         <a class="nav-link" href="venta.php">VENTA</a>
@@ -69,6 +65,7 @@
                             
                 </ul>
             </div>
+            
         <?php 
        
         if (!isset($_SESSION["estado"])) { 
@@ -76,7 +73,7 @@
         }  
         
         if ($_SESSION["estado"]==false){
-            echo "<h4 class='h4Carrito'>Usuario</h4>";
+            echo "<h4 class='h4Carrito'>Usuario</h4>'";
             }else{
             echo "<h4 class='h4Carrito'>Hola $_SESSION[username]</h4>";
         }
@@ -104,8 +101,8 @@
                             
 
                             <?php
-
-                                $compraTotal=0;
+                                $compraTotal=0;    
+                            
                                 while ($filaCarrito=mysqli_fetch_array($tablaCarrito)){
                                     $resultado=0;
                                     echo "<tr><td><a class='quitar' href='quitar.php?id=$filaCarrito[id]'><img src='imagenes/trash.svg' width='20px' alt=''></a></td>";   
@@ -160,8 +157,8 @@
                                       </div>
                                     </div>";
                         }else{
-                            echo "<button id='botonComprar' type='button' class='btn btn-outline-warning'>COMPRAR</button>";
-                            echo "<a id=botonCerrarSesion class='btn btn-outline-warning' role='button' href='closeLogin.php'>CERRAR SESION</a>";
+                            echo "<a id='botonComprar' class='btn btn-outline-warning' href='comprar.php'>COMPRAR</a>";
+                            echo "<a id=botonCerrarSesion class='btn btn-outline-warning' role='button' href='closeLogin.php?idUsuario='>CERRAR SESION</a>";
                         }
                         
                     ?>
